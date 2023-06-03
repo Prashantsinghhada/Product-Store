@@ -1,0 +1,85 @@
+*{
+    margin:0;
+    padding:10px;
+    box-sizing: border-box;
+}
+#root7{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    place-content: center;
+    gap:1em
+} 
+header{
+display: inline;    
+    
+}
+.box{
+    display: inline-block;
+    margin:1rm;
+    padding:10px;
+    border:0.3em solid gray;
+    position:relative;
+    height:400px;
+
+
+}
+.description{
+ width: 200px;
+ height: 200px;
+ overflow-y: auto;
+}
+.Box div{
+    position: relative;
+}
+.button-area{
+    color:aliceblue;
+    background-color:gray;
+}
+img{
+    height:100%;
+    width: 100%;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+
+.brand{
+    background-color:aqua;
+    color: rgb(5, 49, 106);
+    text-align: justify;
+    position: absolute;
+    left: 5%;
+    transition:cubic-bezier(0.785, 0.135, 0.15, 0.86);
+    width: auto;
+    border-radius:10%;
+    bottom:0;
+
+
+}
+.price:hover,.brand:hover{
+    border:2px solid rgb(5, 49, 106);
+    background-color: rgb(5, 49, 106);
+    color:aqua;
+}
+.price{
+    float:right;
+    transition:cubic-bezier(0.785, 0.135, 0.15, 0.86);
+    width: auto;
+    border-radius:10%;
+    background-color: aqua;
+    color: rgb(5, 49, 106);
+    position: absolute;
+    right:5%;
+    bottom:0;
+
+
+}
+.rating{
+    background-color:rgba(7, 66, 91, 0.167);
+    color:white;
+    border-radius:50%;
+    /* position: absolute; */
+    float:right;
+    right:1%;
+
+}

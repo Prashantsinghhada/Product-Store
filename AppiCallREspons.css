@@ -1,0 +1,30 @@
+@media only screen and (max-width: 600px){
+        #root7{
+            display:grid;
+            grid-template-columns: 1fr;
+            place-content: center;
+            overflow:auto ;
+            border:2px solid gray;
+        } 
+div .description{
+    overflow: auto;
+    block-size: border-box;
+    /* position: absolute; */
+    height:fit-content;
+
+}
+.box{
+    display: inline-block;
+    margin:1rm;
+    padding:10px;
+    border:0.3em solid gray;
+    /* overflow:hidden; */
+    position:relative;
+    max-height: max-content;
+}
+    }
+    
+figure,figcaption{
+
+   margin:auto;
+}
